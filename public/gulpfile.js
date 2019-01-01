@@ -13,8 +13,8 @@ var url = require('url');
 var path = require('path');
 //json数据
 var data = require('./src/mock/data.json');
-// console.log(data)
-//编译scss
+console.log(data)
+    //编译scss
 gulp.task('sass', function() {
     return gulp.src('src/scss/index.scss')
         .pipe(sass())
